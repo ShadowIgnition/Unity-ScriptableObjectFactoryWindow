@@ -1,6 +1,5 @@
 // https://github.com/ShadowIgnition/Unity-ScriptableObjectFactoryWindow
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -41,18 +40,6 @@ public class ScriptableObjectFactoryWindow : EditorWindow
 	}
 
 	/// <summary>
-	/// Initializes the editor window and adds ScriptableObject types to the list.
-	/// </summary>
-	void OnEnable()
-	{
-		// Add your ScriptableObject types here
-		m_ScriptableObjectTypes.Add(typeof(ScriptableObject));
-		m_ScriptableObjectTypes.Add(typeof(ScriptableObject));
-		m_ScriptableObjectTypes.Add(typeof(ScriptableObject));
-		// Add more types as needed
-	}
-
-	/// <summary>
 	/// Creates an instance of the specified ScriptableObject type and saves it as an asset.
 	/// </summary>
 	/// <param name="type">The type of ScriptableObject to create.</param>
@@ -69,8 +56,15 @@ public class ScriptableObjectFactoryWindow : EditorWindow
 
 	const string WINDOW_NAME = "ScriptableObject Factory"; // Name of the window
 
-	// Private variables
-	List<Type> m_ScriptableObjectTypes = new List<Type>(); // List of ScriptableObject types
+	// List of ScriptableObject types
+	// Add your ScriptableObject types here
+	Type[] m_ScriptableObjectTypes = new Type[]
+	{
+		typeof(ScriptableObject),
+		typeof(ScriptableObject),
+		typeof(ScriptableObject),
+	};
+
 	Vector2 m_ScrollPosition; // Scroll position for the editor window
 }
 #endif
