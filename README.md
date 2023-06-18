@@ -8,10 +8,9 @@
 
 To use the `ScriptableObject Factory Window`, follow these steps:
 
-1. Open the Unity Editor.
-2. In the Unity Editor menu, navigate to "Tools" and select "ScriptableObject Factory".
-3. The `ScriptableObject Factory Window` will open, displaying a list of available ScriptableObject types.
-4. Click on the desired ScriptableObject type to create an instance of it.
+1. In the Unity Editor menu, navigate to "Tools" and select "ScriptableObject Factory".
+2. The `ScriptableObject Factory Window` will open, displaying a list of available ScriptableObject types.
+3. Click on the desired ScriptableObject type to create an instance of it.
 
 ## Customization
 
