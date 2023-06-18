@@ -39,7 +39,7 @@ public class ScriptableObjectFactoryWindow : EditorWindow
 
 - **Recommended Location:** For best usage and organization, it is recommended to place the `ScriptableObjectFactoryWindow.cs` file in the `Assets/Editor` folder of your Unity project. For more information refer to the [Unity documentation on Special Folders](https://docs.unity3d.com/Manual/SpecialFolders.html).
 
-- If you find the `I2Preview` attribute helpful, please consider giving it a star on the GitHub repository. Your support is greatly appreciated!
+- If you find the `ScriptableObject Factory Window` attribute helpful, please consider giving it a star on the GitHub repository. Your support is greatly appreciated!
 
 ## License
 
