@@ -1,4 +1,4 @@
-# ScriptableObject Factory Window README
+# ScriptableObject Factory Window
 
 `ScriptableObject Factory Window` is an editor window for creating ScriptableObjects in Unity. It provides a convenient interface within the Unity Editor for creating instances of ScriptableObjects.
 
